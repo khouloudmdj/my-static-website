@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><b><i>Styled Webpage</i></b></title>
+  <link rel="stylesheet" href="styleHtml.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <h1><b><i>Welcome to My Styled Webpage</i></b></h1>
+  
+  <p>
+    <b><i>This simple webpage is an example of Web 1.0 design, which focuses on static content and basic HTML structures. 
+    Back in the early days of the web, pages like this were the norm, offering straightforward information without any interactivity.</i></b>
+  </p>
+  
+  <p>
+    <b><i>Web 1.0 sites were often used to share knowledge, create personal portfolios, and serve as directories. 
+    They featured static text, simple images, and hyperlinks to other resources.</i></b>
+  </p>
+  
+  <img src="images.jpg" alt="<b><i>Sample Image</i></b>">
+  
+  <p>
+    <b><i>Interested in learning more? Here are a few links you might find useful:</i></b>
+  </p>
+  
+  <ul>
+    <li><b><i><a href="https://www.wikipedia.org/" target="_blank">Wikipedia: The Free Encyclopedia</a></i></b></li>
+    <li><b><i><a href="https://www.archive.org/web/" target="_blank">Wayback Machine: Browse the Past Web</a></i></b></li>
+    <li><b><i><a href="https://www.w3schools.com/" target="_blank">W3Schools: Learn HTML</a></i></b></li>
+  </ul>
+  
+  <p id="message">
+    <b><i>Thank you for visiting this demonstration of a styled webpage. For further exploration, visit <a href="https://example.com" target="_blank">Example</a>.</i></b>
+  </p>
+  
+  <button onclick="changeText()"><b><i>Click Me</i></b></button>
+  
+  <script>
+    function changeText() {
+      document.getElementById("message").innerHTML = "<b><i>You clicked the button! The page now feels interactive and styled.</i></b>";
+    }
+  </script>
+</body>
+</html>
